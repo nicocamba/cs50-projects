@@ -1,0 +1,10 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+instance/
+*.log
