@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resultado de búsqueda</title>
+</head>
+<body>
+    <h1>Imágenes de poblaciones seleccionadas</h1>
+    <div>
+        <h2>Población Inicial: {{ poblacion_inicial }}</h2>
+        <img src="{{ url_for('static', filename='Imagen' + str(Poblaciones.index(poblacion_inicial)) + '.png') }}" alt="Imagen inicial">
+    </div>
+    <div>
+        <h2>Población Final: {{ poblacion_final }}</h2>
+        <img src="{{ url_for('static', filename='Imagen' + str(Poblaciones.index(poblacion_final)) + '.png') }}" alt="Imagen final">
+    </div>
+</body>
+</html>

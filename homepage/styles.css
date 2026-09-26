@@ -1,0 +1,72 @@
+.title_centered
+{
+    font-family: cursive;
+    text-align: center;
+    text-decoration: underline black;
+    margin-bottom: 50px;
+    text-shadow: 5px 5px 15px #111111;
+    ext-transform: capitalize;
+}
+.title_not_main
+{
+    text-align: center;
+    font-family: "Times New Roman";
+    font-size: xx-large;
+    color: #101010;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+.paragraphs_not_main
+{
+    margin-left: 25px;
+    margin-right: 15px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.img_resumen
+{
+    display: block;
+    border-radius: 50%;
+    margin-left: 400px;
+    margin-right: 50px;
+    height: 50%;
+    width: 50%;
+}
+
+.img_futbol_1
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+    width: 50%;
+}
+
+.img_futbol_2
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+    width: 50%;
+}
+
+.img_matematicas
+{
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    width: 300px;
+}
+
+.video_ciclismo
+{
+    width: 25%;
+    display: block;
+}
+
